@@ -4,8 +4,8 @@ import time
 class Config(object):
 
     TELEGRAM_BOT_TOKEN    = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-    API_KEY  = os.environ.get("API_KEY", " nNVB1ecq09EhrAujk99r ")
-
+    API_KEY  = os.environ.get("API_KEY", "nNVB1ecq09EhrAujk99r")
+    GET_API_KEY  = os.environ.get("GET_API_KEY", "https://anbusec.xyz")
 
 
 
